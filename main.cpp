@@ -7,7 +7,7 @@ using std::endl;
 int main() {
   //Test ReverseArray();
 
-    std::cout << DogishHelper("gadgdks",'d') << std::endl;
+   // std::cout << DogishHelper("gadgdks",'d') << std::endl;
   int arr[] = { 1, 2, 3, 4, 5 };
   int n = sizeof(arr)/sizeof(arr[0]); // size of array
   ReverseArray(arr,n); // calling function, passing array + size 
@@ -17,7 +17,7 @@ int main() {
 	 }
 
  //Test HasBalancedParentheses();
-  std::string statement1 = "()";
+  std::string statement1 = ")()(";
   if(HasBalancedParentheses(statement1)){
     	std::cout << "balanced " << std::endl;
   }
