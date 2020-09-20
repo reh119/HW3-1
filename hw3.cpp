@@ -43,7 +43,7 @@ for (int i = 0; i < input.length(); i++){
    return false;
 
   if (open_paren == 0)
-   return true;
+   return false;
 
 }
  return false; 
