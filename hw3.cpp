@@ -29,12 +29,21 @@ int end = n-1;
 *
 */ 
   bool HasBalancedParentheses(string input){
+    int open_paren =0; 
+    int close_paren=0; 
 
+for (int i = 0; i < input.length(); i++){
+  if (input[i]=='('){ 
+   open_paren+=1;
+}
+  else if(input[i]==')') 
+   close_paren+=1; 
 
+  if (open_paren == close_paren)
+   return true;
 
-
+}
  return false; 
-
   }
 
 
