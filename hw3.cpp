@@ -43,13 +43,13 @@ for (int i = 0; i < input.length(); i++){
     if (open_paren<0)
     return false;
 
+  
+
+}
   if (open_paren == 0)
    return true;
    else 
    return false; 
-
-}
-  
   }
 
 
