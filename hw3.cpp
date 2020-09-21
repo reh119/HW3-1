@@ -33,18 +33,14 @@ int end = n-1;
     
 
 for (int i = 0; i < input.length(); i++){
-  if (input[i]=='(')
+  if (input[i]=='('){ 
    open_paren+=1;
-
+}
   else if(input[i]==')') 
    open_paren-=1; 
 
-   if (open_paren < 0)
-   return false;
-
   if (open_paren == 0)
    return true;
-
 
 }
  return false; 
