@@ -29,6 +29,7 @@ int end = n-1;
 *
 */ 
   bool HasBalancedParentheses(string input){
+
     int open_paren =0; 
     
 
@@ -48,7 +49,7 @@ for (int i = 0; i < input.length(); i++){
    return false; 
 
 }
- return true;  
+  
   }
 
 
