@@ -31,15 +31,14 @@ int end = n-1;
   bool HasBalancedParentheses(string input){
     int open_paren =0; 
     
-if (input == " "){
+if (input ==" "){
 return true; 
 
 }
 for (int i = 0; i < input.length(); i++){
 
-  if (input[i]=='('){ 
+  if (input[i]=='(') 
    open_paren+=1;
-}
   else if(input[i]==')') 
    open_paren-=1; 
 
@@ -53,7 +52,7 @@ for (int i = 0; i < input.length(); i++){
    
 
 }
- return false; 
+ return 0; 
   }
 
 
