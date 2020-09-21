@@ -3,6 +3,7 @@
 #include "hw3.h"
 
 using std::endl;
+using std::cout;
 
 int main() {
   //Test ReverseArray();
@@ -21,6 +22,8 @@ int main() {
   if(HasBalancedParentheses(statement1)){
     	std::cout << "balanced " << std::endl;
   }
+  else 
+  cout << "not balalnced"<< endl ; 
 
 // // Test InDogish();
 //  std::string mydogs = "dpoags";
