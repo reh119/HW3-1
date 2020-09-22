@@ -15,7 +15,7 @@ increment counters
 Length needs to be added as a parameter because in order to find out end/last, we need a size of the array. 
 *
 */
-using namespace std; 
+
 
 void ReverseArray( int arr[], int n){  
  
